@@ -2,7 +2,7 @@ import { totalPrice } from "../../units/total-price";
 import Button from "../button/button";
 import "./cart.css";
 
-const Cart = ({ cartItems, onCheckOut}) => {
+const Cart = ({ cartItems, onCheckOut }) => {
   return (
     <div className="cart__container">
       <p>
